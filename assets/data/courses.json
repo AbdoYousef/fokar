@@ -1,0 +1,115 @@
+{
+    "courses": [
+      {
+        "id": "beginner",
+        "title": "كورس تعريفي",
+        "description": "اكتشف عالم الفخار من الصفر مع هذا الكورس المخصص للمبتدئين.",
+        "price": "125 ريال",
+        "instructor": "أحمد علي",
+        "instructorImage": "../../assets/images/experts/person2.png",
+        "image": "../../assets/images/all-img/intro.jpeg",
+        "startDate": "12/3/2025",
+        "videoId": "VIDEO_ID_BEGINNER",
+        "details": {
+          "duration": "4 أسابيع",
+          "level": "مبتدئ",
+          "lessons": "3 دروس",
+          "time": "3h 45m",
+          "rating": "4.9",
+          "seats": "30 مقعد متاح"
+        },
+        "curriculum": [
+          {
+            "week": "الأسبوع 1",
+            "topics": ["التعرف على الأدوات والمواد.", "تقنيات تشكيل الطين الأساسية."]
+          },
+          {
+            "week": "الأسبوع 2",
+            "topics": ["إنشاء الأكواب والصحون.", "تقنيات التجفيف الأولي."]
+          },
+          {
+            "week": "الأسبوع 3",
+            "topics": ["مقدمة إلى التلوين.", "تقنيات التزجيج الأساسية."]
+          },
+          {
+            "week": "الأسبوع 4",
+            "topics": ["كيفية إعداد القطع للحرق.", "اللمسات النهائية."]
+          }
+        ]
+      },
+      {
+        "id": "intermediate",
+        "title": "كورس متقدم",
+        "description": "تعلم تقنيات متقدمة في الفخار وتصميم القطع الفنية.",
+        "price": "150 ريال",
+        "instructor": "فاطمة محمد",
+        "instructorImage": "../../assets/images/experts/person1.png",
+        "image": "../../assets/images/all-img/advance.jpeg",
+        "startDate": "12/3/2025",
+        "videoId": "VIDEO_ID_INTERMEDIATE",
+        "details": {
+          "duration": "6 أسابيع",
+          "level": "متقدم",
+          "lessons": "5 دروس",
+          "time": "5h 30m",
+          "rating": "4.8",
+          "seats": "25 مقعد متاح"
+        },
+        "curriculum": [
+          {
+            "week": "الأسبوع 1",
+            "topics": ["تقنيات التشكيل بالعجلة.", "تصميم القطع الكبيرة."]
+          },
+          {
+            "week": "الأسبوع 2",
+            "topics": ["التلوين المتقدم.", "تقنيات النقوش."]
+          },
+          {
+            "week": "الأسبوع 3",
+            "topics": ["فن التزجيج.", "تصميم المجموعات الفنية."]
+          },
+          {
+            "week": "الأسبوع 4",
+            "topics": ["الحرق المتخصص.", "اللمسات النهائية."]
+          }
+        ]
+      },
+      {
+        "id": "advanced",
+        "title": "كورس احترافي",
+        "description": "إتقان فن الفخار وإنشاء قطع فنية عالية الجودة.",
+        "price": "200 ريال",
+        "instructor": "علي أحمد",
+        "instructorImage": "../../assets/images/experts/person2.png",
+        "image": "../../assets/images/all-img/prof.jpeg",
+        "startDate": "12/3/2025",
+        "videoId": "VIDEO_ID_ADVANCED",
+        "details": {
+          "duration": "8 أسابيع",
+          "level": "محترف",
+          "lessons": "8 دروس",
+          "time": "8h 00m",
+          "rating": "4.9",
+          "seats": "20 مقعد متاح"
+        },
+        "curriculum": [
+          {
+            "week": "الأسبوع 1",
+            "topics": ["تصميم القطع الكبيرة.", "تقنيات التشكيل المتقدمة."]
+          },
+          {
+            "week": "الأسبوع 2",
+            "topics": ["التلوين الاحترافي.", "تقنيات النقوش المتقدمة."]
+          },
+          {
+            "week": "الأسبوع 3",
+            "topics": ["فن التزجيج الاحترافي.", "تصميم المجموعات الفنية."]
+          },
+          {
+            "week": "الأسبوع 4",
+            "topics": ["الحرق المتخصص.", "اللمسات النهائية."]
+          }
+        ]
+      }
+    ]
+  }

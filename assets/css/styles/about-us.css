@@ -1,0 +1,245 @@
+/* Header */
+.about-header {
+    background: url('../../images/banner/home.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+}
+.about-us-logo{
+    /* background-color: #fff; */
+}
+
+.about-us-logo img{
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 990px) {    
+    .about-us-logo{
+        /* padding-top: 20px; */
+    }
+}
+
+
+
+
+
+
+
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+}
+
+.card-white-1 {
+    padding: 20px;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: var(--primary-headers);
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+.about-section img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mission and Vision Section */
+.mission-vision {
+    padding: 60px 0;
+}
+
+.mission-vision .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.mission-vision h3 {
+    font-size: 1.5rem;
+    color: #5C3D2E;
+    margin-bottom: 10px;
+}
+
+.mission-vision i {
+    font-size: 2rem;
+    color: #5C3D2E;
+    margin-bottom: 10px;
+}
+
+/* Team Section */
+.team-section {
+    padding: 60px 0;
+}
+
+.team-section h2 {
+    font-size: 2.5rem;
+    color: #5C3D2E;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.team-card img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-card h4 {
+    font-size: 1.25rem;
+    color: #5C3D2E;
+    margin-bottom: 5px;
+}
+
+.team-card p {
+    font-size: 1rem;
+    color: #7D5A50;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .about-section h2,
+    .team-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-section p,
+    .mission-vision p,
+    .team-card p {
+        font-size: 1rem;
+    }
+
+    .mission-vision .card {
+        margin-bottom: 20px;
+    }
+
+    .team-card img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-section h2,
+    .team-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .about-section p,
+    .mission-vision p,
+    .team-card p {
+        font-size: 0.9rem;
+    }
+
+    .team-card img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+/* My About */
+
+.my-about-1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.my-about-desc,
+.my-about-img{
+    width: 48%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.my-about-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.my-about-desc h2{
+    font-size: 2.5rem;
+    color: var(--primary-headers);
+    margin-bottom: 20px;
+}
+
+.my-about-desc p{
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+    .my-about-img{
+    display: flex;
+    justify-content: center;
+}
+
+.my-about-img img {
+    width: auto;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .my-about-1{
+        height: auto;
+    }
+    
+    .my-about-1{
+        flex-direction: column-reverse;
+    }
+    .my-about-desc,
+    .my-about-img{
+        width: 100%;
+        height: 80%;
+    }
+    .my-about-img img {
+        width: 100%;
+        height: auto;
+    }
+}

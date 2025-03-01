@@ -1,0 +1,137 @@
+/* Shop Section */
+.shop-section {
+    padding: 20px 0;
+}
+
+.shop-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    background: url('../../images/banner/home.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.shop-header h1 {
+    font-size: 2.5rem;
+    color: #1a2d62;
+    margin-bottom: 10px;
+}
+
+.shop-header p {
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-group label {
+    font-size: 1rem;
+    color: #2f3542;
+}
+
+.filter-group select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+	.filter-group{
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	
+}
+
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.25fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #849E5D;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.product-details {
+    padding: 15px;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #A7634D;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    color: #A7634D;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2f3542;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #849E5D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #A7634D;
+}

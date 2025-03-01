@@ -1,0 +1,259 @@
+/* General Styles */
+#course-description{
+  color: #fff;
+}
+  
+  /* Header */
+  .course-header {
+    background-image: url('../../images/banner/home.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .course-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/banner/home.png'); /* A subtle pottery-themed pattern */
+    opacity: 0.2; /* Keep it subtle */
+    pointer-events: none; /* Ensure it doesn't interfere with clicks */
+  }
+  
+  .course-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .course-header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Course Overview */
+  .course-overview {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100% !important;
+  }
+  
+  @media only screen and (max-width: 990px) {
+  .css-marg{
+      margin-bottom: 20px !important;
+    }
+  }
+
+
+
+
+  .course-overview h2 {
+    color: var(--primary-headers);
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .course-overview h3 {
+    color: var(--primary-headers);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .course-overview ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+
+  #course-overview,
+  #course-learning li,
+  #course-requirements li{
+    color: var(--text-dark);
+  }
+
+  
+  /* Course Sidebar */
+  .course-sidebar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-info h3,
+  .course-instructor h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--primary-headers);
+  }
+  
+  .course-info ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-info ul li {
+    margin-bottom: 10px;
+    color: var(--text-dark);
+  }
+
+  .course-info ul li strong{
+    padding-left: 3px;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-green);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .course-instructor .instructor-details {
+    text-align: center;
+  }
+  
+  .course-instructor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  #instructor-bio{
+    color: var(--text-dark);
+  }
+  
+  /* Course Curriculum */
+  .course-curriculum {
+    margin-top: 40px;
+  }
+  
+  .course-curriculum h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .curriculum-list {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .curriculum-item {
+    margin-bottom: 20px;
+  }
+  
+  .curriculum-item h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .curriculum-item ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .curriculum-item ul li{
+    color: var(--text-dark);
+  }
+
+
+/* added styles for video and FAQS */
+
+/* Video Trailer */
+.video-trailer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .video-trailer iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Student Testimonials */
+  .student-testimonials {
+    padding: 40px 0 0 0;
+  }
+  
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-card p{
+    color: var(--text-dark);
+  }
+
+  .student-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .student-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  
+  /* FAQs */
+  .faqs {
+    padding: 40px 0;
+  }
+  
+  .faq-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+
+  .faq-item p{
+    color: var(--text-dark);
+  }

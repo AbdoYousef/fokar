@@ -1,0 +1,122 @@
+/* My generals  */
+
+.card-white-11{
+	background-color: var(--bg-gray-dark);
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-section .row > div {
+    max-width: 700px;
+    margin: 0 auto; 
+}
+
+.contact-form,
+.contact-info {
+    /* background: var(--white); */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2,
+.contact-info h2 {
+    font-size: 2rem;
+    color: var(--primary-headers);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: var(--primary-green);
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--primary-green);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: var(--primary-green);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-info ul li i {
+    font-size: 1.2rem;
+    color: var(--primary-green);
+    margin-left: 10px;
+}
+
+.contact-info ul li p {
+    font-size: 1rem;
+    color: var(--primary-green);
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: var(--primary-green);
+    transition: color 0.3s ease;
+}
+
+.social-links .social-icon:hover {
+    color: var(--primary-dark);
+}
+
+.google-map {
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-form,
+    .contact-info {
+    margin-bottom: 30px;
+    }
+}

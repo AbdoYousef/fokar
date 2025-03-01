@@ -1,0 +1,144 @@
+/* Login Section */
+.login-section {
+    padding: 50px 0;
+    background-color: var(--gray-100);
+}
+
+.login-card {
+    background: var(--bg-gray-dark);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h2 {
+    font-size: 2rem;
+    color: var(--primary-green);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: var(--primary-headers);
+    font-weight: 700;    
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--gray-200);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    color: var(--primary-headers);
+}
+
+.remember-me input {
+    margin-left: 10px;
+}
+
+.forgot-password a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+    color: var(--primary-headers);
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: var(--primary-green);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login p {
+    font-size: 0.9rem;
+    color: var(--gray-700);
+    margin-bottom: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn.facebook {
+    background-color: #0867ffcb;
+    color: #fff;
+}
+
+.social-btn.google {
+    background-color: #ea4335;
+    color: #fff;
+}
+
+.social-btn i {
+    margin-left: 10px;
+}
+
+.signup-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signup-link p {
+    font-size: 0.9rem;
+    color: var(--gray-700);
+}
+
+.signup-link a {
+    color: var(--primary-green);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

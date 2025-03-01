@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles/courses-page.css">
+    <title>المتجر</title>
+
+    <!--Fav icon  -->
+		<link rel="icon" type="image/png" href="../../assets/images/all-img/fav-icon.png">
+		<!-- Latest Bootstrap min CSS -->
+		<link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">		
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="../../assets/fonts/font-awesome.min.css">
+		<link rel="stylesheet" href="../../assets/fonts/themify-icons.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<!--- owl carousel Css-->
+		<link rel="stylesheet" href="../../assets/owlcarousel/css/owl.carousel.css">
+		<link rel="stylesheet" href="../../assets/owlcarousel/css/owl.theme.css">				
+		<!--slicknav Css-->
+        <link rel="stylesheet" href="../../assets/css/slicknav.css">		
+		<!-- MAGNIFIC CSS -->
+		<link rel="stylesheet" href="../../assets/css/magnific-popup.css">	
+		<!-- animate CSS -->
+		<link rel="stylesheet" href="../../assets/css/animate.css">			
+		<!-- Animate CSS (for wow.js) -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<!-- Style CSS -->					
+		<link rel="stylesheet" href="../../assets/css/style.css" />	
+		<link rel="stylesheet" href="../../assets/css/styles/shop.css" />
+</head>
+<body>
+
+    <!-- START NAVBAR -->  
+	<nav id="my-navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+		<div id="nav-container-fluid" class="container-fluid">
+			<a class="navbar-brand" href="../../index.html"><img id="logo-img-nav" src="../../assets/images/all-img/logo.png" alt="logo"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+				<ul id="all-nav-links" class="navbar-nav mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="../../index.html">الرئيسية</a>
+					</li>
+					<li id="courses-link-hover" class="nav-item dropdown">
+						<a id="courses-nav-link" class="nav-link dropdown-toggle" href="../../assets/html/courses-page.html" role="button" aria-expanded="flase">
+						الكورسات
+						</a>
+						<ul id="drop-down-nav" class="dropdown-menu">
+						<li><a class="dropdown-item" href="../../assets/html/courses-page.html?filter=beginner" data-filter="beginner">كورس تعريفي</a></li>
+						<li><a class="dropdown-item" href="../../assets/html/courses-page.html?filter=intermediate" data-filter="intermediate">كورس متقدم</a></li>
+						<li><a class="dropdown-item" href="../../assets/html/courses-page.html?filter=advanced" data-filter="advanced">كورس احترافي</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+							<a class="nav-link" href="../../assets/html/shop.html">المتجر</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../../assets/html/events.html">فاعلياتنا</a>
+						</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../../assets/html/about-us.html">من نحن</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../../assets/html/contact-us.html">تواصل معنا</a>
+					</li>
+				</ul>
+				<div class="left-nav-items d-flex align-items-center justify-content-between">
+                    <div>
+                        <a href="#" class="hlc nav-icons">
+                            <i class="ti-heart"></i>
+                            <span class="gactive">0</span>
+                        </a>
+                        <a href="#" class="hlc nav-icons">
+                            <i class="ti-shopping-cart-full"></i>
+                            <span class="gactive">2</span>
+                        </a>
+                    </div>
+                    <div class="gap-2">
+
+                        <a class="btn_one" href="../../assets/html/login.html">تسجيل الدخول</a>
+                        <a class="btn_two" href="../../assets/html/register.html">أنشاء حساب</a>
+
+                    </div>
+                </div>
+			</div>
+		</div>
+	</nav> 
+	<!-- END NAVBAR -->
+
+	<!-- START SECTION TOP -->
+	<section class="section-top" id="courses-page-bg">
+		<div class="container">
+		<div class="col-lg-10 offset-lg-1 text-center mx-auto">
+			<div class="section-top-title wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+			<h1>متجر مجتمع الفخار</h1>
+			<ul id="courses-route-word">
+				<li><a href="../../index.html">الرئيسية</a></li>
+				<li> / المتجر</li>
+			</ul>
+			</div>
+		</div><!--- END COL -->
+		</div><!--- END CONTAINER -->
+	</section>	
+	<!-- END SECTION TOP -->
+
+	<!-- Shop Section -->
+	<section class="shop-section">
+		<div class="container-fluid">
+		<!-- Filters -->
+		<div class="filters">
+			<div class="filter-group">
+				<label for="category">التصنيف:</label>
+				<select id="category">
+					<option value="all">الكل</option>
+					<option value="vases">الأواني</option>
+					<option value="plates">الأطباق</option>
+					<option value="cups">الأكواب</option>
+				</select>
+			</div>
+			<div class="filter-group">
+				<label for="sort">ترتيب حسب:</label>
+				<select id="sort">
+					<option value="default">الافتراضي</option>
+					<option value="price-low">السعر: من الأقل للأعلى</option>
+					<option value="price-high">السعر: من الأعلى للأقل</option>
+				</select>
+			</div>
+		</div>
+	
+		<!-- Product Grid -->
+		<div class="product-grid" id="product-grid">
+			<!-- Products will be dynamically inserted here -->
+		</div>
+		</div>
+	</section>
+	
+
+
+	<!-- START FOOTER -->
+	<div class="footer">
+		<div class="container">				
+			<div class="row footer-row-1">						
+				<div class="col-lg-2 col-md-6 col-sm-3 col-3">
+					<div class="single_footer">
+						<a href="../../index.html"><img class="footer-logo-img" src="../images/all-img/logo.png" alt=""></a>         
+					</div>
+				</div><!--- END COL -->						
+				<div class="col-lg-3 col-md-6 col-sm-9 col-9">
+					<div class="single_footer">
+						<p>
+							انضم إلى مجتمع نابض بالحياة من الفنانين والهواة، حيث تأخذ الطين شكلها. سواء كنت مبتدئًا أو محترفًا، اكتشف متعة تحويل أفكارك إلى إبداعات خالدة. في مجتمع الفخار، نؤمن بأن كل قطعة تحكي قصة — فلنبدأ بصنع قصتك معًا.
+						</p>
+							
+					</div>
+				</div><!--- END COL -->	
+				<div class="col-lg-2 col-md-4 col-sm-3 col-6">
+					<div class="single_footer">
+						<h4>الشركة</h4>
+						<ul>
+							<li><a href="../html/about-us.html">نبذة عنا</a></li>
+							<li><a href="../html/contact-us.html">تواصل معانا</a></li>						
+						</ul>
+					</div>
+				</div><!--- END COL -->	
+				<div class="col-lg-2 col-md-4 col-sm-3 col-6">
+					<div class="single_footer">
+						<h4>الكورسات</h4>
+						<ul>
+							<li><a class="nav-link" href="../html/courses-page.html?filter=beginner" data-filter="beginner">كورس تعريفي</a></li>
+							<li><a class="nav-link" href="../html/courses-page.html?filter=intermediate" data-filter="intermediate">كورس متقدم</a></li>
+							<li><a class="nav-link" href="../html/courses-page.html?filter=advanced" data-filter="advanced">كورس احترافي</a></li>
+						</ul>
+					</div>
+				</div><!--- END COL -->	
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="single_footer">
+						<h4>اتصل بنا</h4>
+						<div class="sf_contact">
+							<span class="ti-mobile"></span>
+							<p>+88 457 845 695</p>
+						</div>
+						<div class="sf_contact">
+							<span class="ti-email"></span>
+							<p>example#yourmail.com</p>
+						</div>
+						<div class="sf_contact">
+							<span class="ti-map"></span>
+							<p>الرياض-المملكة العربية السعودية</p>
+						</div>
+						<div class="foot_social">
+							<ul>
+								<li><a href="#"><i class="fa-brands fa-facebook" style="color: #849e5d;"></i></a></li>
+								<li><a href="#"><i class="fa-brands fa-square-instagram" style="color: #849e5d;"></i></a></li>
+								<li><a href="#"><i class="fa-brands fa-square-snapchat" style="color: #849e5d;"></i></a></li>
+							</ul>						
+						</div>
+					</div>
+				</div><!--- END COL -->	
+			</div><!--- END ROW -->		
+			<div class="row fc">
+				<div class="d-flex justify-content-center col-sm-12 col-xs-12">
+					<div class="footer_copyright">
+						<p>© 2025 مجتمع الفخار. جميع الحقوق محفوظة.</p>
+					</div>
+				</div>
+			</div>				
+		</div><!--- END CONTAINER -->
+	</div>
+<!-- END FOOTER -->		
+
+		<!-- Latest jQuery -->
+		<script src="../../assets/js/jquery-1.12.4.min.js"></script>
+		<!-- Latest compiled and minified Bootstrap -->
+			<script src="../../assets/bootstrap/js/bootstrap.min.js"></script>			
+		<!-- owl-carousel min js  -->
+			<script src="../../assets/owlcarousel/js/owl.carousel.min.js"></script>	
+		<!-- jquery.slicknav -->
+			<script src="../../assets/js/jquery.slicknav.js"></script>			
+		<!-- magnific-popup js -->               
+			<script src="../../assets/js/jquery.magnific-popup.min.js"></script>	
+		<!-- jquery mixitup min js -->
+			<script src="../../assets/js/jquery.mixitup.js"></script>			
+		<!-- scrolltopcontrol js -->
+			<script src="../../assets/js/scrolltopcontrol.js"></script>	
+		<!-- jquery purecounter vanilla js -->
+			<script src="../../assets/js/purecounter_vanilla.js"></script>			
+		<!-- WOW - Reveal Animations When You Scroll -->
+			<script src="../../assets/js/wow.min.js"></script>				
+		<!-- scripts js -->	
+			<script src="../../assets/js/scripts.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<script>
+		// Fetch products from JSON file
+		async function loadProducts() {
+		try {
+			const response = await fetch('../data/products.json'); // Path to your JSON file
+			const products = await response.json();
+			displayProducts(products);
+			setupFilters(products);
+		} catch (error) {
+			console.error('Error loading products:', error);
+		}
+		}
+
+		// Display products in the grid
+		function displayProducts(products) {
+		const productGrid = document.getElementById('product-grid');
+		productGrid.innerHTML = ''; // Clear existing content
+
+		products.forEach(product => {
+			const productCard = `
+			<div class="product-card" data-category="${product.category}">
+				<div class="product-image">
+				<img src="${product.image}" alt="${product.name}" class="img-fluid">
+				${product.discount > 0 ? `<div class="product-badge">خصم ${product.discount}%</div>` : ''}
+				</div>
+				<div class="product-details">
+				<h3 class="product-name">${product.name}</h3>
+				<p class="product-description">${product.description}</p>
+				<p class="product-price">السعر: ${product.price} ر.س</p>
+				<a href="#" class="btn btn-primary">أضف إلى السلة</a>
+				</div>
+			</div>
+			`;
+			productGrid.insertAdjacentHTML('beforeend', productCard);
+		});
+		}
+
+		// Setup filters
+		function setupFilters(products) {
+		const categoryFilter = document.getElementById('category');
+		const sortFilter = document.getElementById('sort');
+
+		categoryFilter.addEventListener('change', () => filterProducts(products));
+		sortFilter.addEventListener('change', () => filterProducts(products));
+		}
+
+		// Filter and sort products
+		function filterProducts(products) {
+		const category = document.getElementById('category').value;
+		const sort = document.getElementById('sort').value;
+
+		let filteredProducts = products;
+
+		// Filter by category
+		if (category !== 'all') {
+			filteredProducts = products.filter(product => product.category === category);
+		}
+
+		// Sort by price
+		if (sort === 'price-low') {
+			filteredProducts.sort((a, b) => a.price - b.price);
+		} else if (sort === 'price-high') {
+			filteredProducts.sort((a, b) => b.price - a.price);
+		}
+
+		displayProducts(filteredProducts);
+		}
+
+		// Load products when the page loads
+		document.addEventListener('DOMContentLoaded', loadProducts);
+	</script>
+</body>
+</html>

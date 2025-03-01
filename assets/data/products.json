@@ -1,0 +1,56 @@
+[
+    {
+    "id": 1,
+    "name": "إناء الفجر",
+    "description": "إناء فخاري يدوي الصنع، مصمم بتفاصيل فنية فريدة.",
+    "price": 150,
+    "image": "../images/shop/prod-1.jpg",
+    "category": "vases",
+    "discount": 0
+    },
+    {
+    "id": 2,
+    "name": "صحن القمر",
+    "description": "صحن فخاري بتصميم أنيق، مثالي لتقديم الأطباق.",
+    "price": 120,
+    "image": "../images/shop/prod-1.jpg",
+    "category": "plates",
+    "discount": 0
+    },
+    {
+    "id": 3,
+    "name": "فنجان الحكايات",
+    "description": "فنجان فخاري بتصميم مميز، مثالي للشاي والقهوة.",
+    "price": 80,
+    "image": "../images/shop/prod-1.jpg",
+    "category": "cups",
+    "discount": 0
+    },
+    {
+    "id": 4,
+    "name": "وعاء الحياة",
+    "description": "وعاء فخاري للنباتات، يجمع بين الجمال والوظيفية.",
+    "price": 200,
+    "image": "../images/shop/prod-1.jpg",
+    "category": "vases",
+    "discount": 20
+    },
+    {
+    "id": 5,
+    "name": "وعاء الحياة",
+    "description": "وعاء فخاري للنباتات، يجمع بين الجمال والوظيفية.",
+    "price": 200,
+    "image": "../images/shop/prod-1.jpg",
+    "category": "vases",
+    "discount": 20
+    },
+    {
+    "id": 6,
+    "name": "وعاء الحياة",
+    "description": "وعاء فخاري للنباتات، يجمع بين الجمال والوظيفية.",
+    "price": 200,
+    "image": "../images/shop/prod-1.jpg",
+    "category": "vases",
+    "discount": 20
+    }
+]
